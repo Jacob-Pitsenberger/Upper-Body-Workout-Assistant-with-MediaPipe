@@ -1,0 +1,49 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore PyCharm IDE and editor-specific files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Ignore PyCharm code style settings (if using project-specific settings)
+.codestyle/
+*.xml
+
+# Ignore PyCharm workspace settings (including local history)
+*.code-workspace
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environment files (if using virtualenv or venv)
+venv/
+env/
+*.env
+
+# Ignore compiled or built files
+*.pyo
+*.pyd
+*.exe
+*.dll
+*.so
+*.dylib
+build/
+dist/
+
+# Ignore package files
+*.egg-info/
+*.egg
+*.whl
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Ignore any sensitive or private information (credentials, API keys, etc.)
+config.ini
+secrets.json
